@@ -36,7 +36,7 @@ char	*ctrl_l(char *buffer)
 	return (NULL);
 }
 
-char	*ft_strjoin_gnl(char const *s1, char const *s2)
+char	*ft_strjoin_gnl(char *s1, char *s2)
 {
 	char	*str;
 	int		i;

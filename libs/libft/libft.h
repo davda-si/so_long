@@ -88,7 +88,7 @@ char		*hex_str(unsigned int n, char *b);
 # endif
 
 char		*get_next_line(int fd);
-char		*ft_strjoin_gnl(char const *s1, char const *s2);
+char		*ft_strjoin_gnl(char *s1, char *s2);
 size_t		ft_strlen_gnl(const char *str);
 char		*ctrl_l(char *buffer);
 int			time_to_free(char *buff);

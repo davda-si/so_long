@@ -16,7 +16,7 @@ static int	close_wnd(t_mapper *game)
 {
 	ft_printf("See ya next time!\n");
 	cleaner(game);
-	close (0);
+	exit (0);
 	return (0);
 }
 
